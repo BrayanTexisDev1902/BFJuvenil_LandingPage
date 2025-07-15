@@ -84,7 +84,7 @@ export const Hero = () => {
 
         {/* Original centered content for smaller screens */}
         <div className="lg:hidden mt-12 animate-fade-in-up">
-          <h1 className="text-3xl md:text-2xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-3xl md:text-2xl font-bold text-white mb-6 leading-tight px-10">
             Bienvenido, Somos
             <span className="block text-blue-300">
               El Ballet Folklorico Juvenil de Puebla
