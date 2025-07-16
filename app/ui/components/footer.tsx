@@ -75,7 +75,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter */}
+        {/* Newsletter
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="text-center mb-8">
             <h4 className="text-xl font-semibold text-blue-400 mb-2">Suscríbete a nuestro newsletter</h4>
@@ -91,12 +91,12 @@ export const Footer = () => {
               Suscribirse
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 BlueCorp. Todos los derechos reservados.
+            © 2024 Ballet Folklorico Juvenil. Todos los derechos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">

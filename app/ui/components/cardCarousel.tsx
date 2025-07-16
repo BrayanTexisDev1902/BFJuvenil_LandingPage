@@ -10,35 +10,35 @@ export const CardCarousel = () => {
   const cards = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/slider1.jpg',
       title: 'Desarrollo Web Moderno',
       description: 'Creamos experiencias web únicas y funcionales',
       category: 'Web Development'
     },
     {
       id: 2,
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/slider2.jpg',
       title: 'Aplicaciones Móviles',
       description: 'Apps nativas y multiplataforma de alta calidad',
       category: 'Mobile Apps'
     },
     {
       id: 3,
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/slider3.jpg',
       title: 'Análisis de Datos',
       description: 'Insights valiosos para tu negocio',
       category: 'Data Analytics'
     },
     {
       id: 4,
-      image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/slider4.jpg',
       title: 'Cloud Computing',
       description: 'Soluciones escalables en la nube',
       category: 'Cloud Services'
     },
     {
       id: 5,
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/slider5.jpg',
       title: 'Inteligencia Artificial',
       description: 'IA aplicada a soluciones empresariales',
       category: 'AI Solutions'
@@ -119,7 +119,7 @@ export const CardCarousel = () => {
             {cards.map((card, index) => (
               <div
                 key={card.id}
-                className="absolute w-80 h-80 transition-all duration-500 ease-out cursor-pointer"
+                className="absolute w-[400px] h-[400px] transition-all duration-500 ease-out cursor-pointer"
                 style={getCardStyle(index)}
                 onClick={() => {
                   if (index !== currentIndex) {
@@ -128,7 +128,7 @@ export const CardCarousel = () => {
                 }}
               >
                 <div className="w-full h-full bg-white rounded-2xl shadow-2xl overflow-hidden hover:shadow-3xl transition-shadow duration-300">
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-[300px] overflow-hidden">
                     <Image
                       src={card.image}
                       alt={card.title}

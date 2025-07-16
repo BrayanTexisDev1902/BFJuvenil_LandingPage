@@ -10,37 +10,37 @@ export const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
-      alt: "Equipo trabajando en oficina moderna",
-      category: "Oficina",
+      src: "/slider1.jpg",
+      alt: "Universidad Iberoamericana",
+      category: "Marzo 2024",
     },
     {
       id: 2,
-      src: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/slider2.jpg",
       alt: "Desarrollo de software",
       category: "Desarrollo",
     },
     {
       id: 3,
-      src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/slider3.jpg",
       alt: "Reunión de equipo",
       category: "Colaboración",
     },
     {
       id: 4,
-      src: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/slider4.jpg",
       alt: "Análisis de datos",
       category: "Análisis",
     },
     {
       id: 5,
-      src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/slider5.jpg",
       alt: "Presentación de proyecto",
       category: "Presentación",
     },
     {
       id: 6,
-      src: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "/slider6.jpg",
       alt: "Innovación tecnológica",
       category: "Innovación",
     },
@@ -70,11 +70,11 @@ export const Gallery = () => {
     <section id="galeria" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-on-scroll">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Nuestra Galería
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 capitalize">
+            Conoce nuestro trabajo
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Un vistazo a nuestro equipo, proyectos y ambiente de trabajo
+            Un vistazo a lo que hacemos y el repertorio presentado en diferentes eventos importantes
           </p>
         </div>
 

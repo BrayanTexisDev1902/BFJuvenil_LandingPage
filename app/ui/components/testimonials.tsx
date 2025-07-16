@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
+import Image from "next/image";
 
 export const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -90,16 +91,18 @@ export const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center justify-center gap-4">
-                      <img
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        className="w-16 h-16 rounded-full object-cover shadow-lg"
+                      <Image
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      width={64}
+                      height={64}
+                      className="w-16 h-16 rounded-full object-cover shadow-lg"
                       />
                       <div>
-                        <h4 className="font-bold text-gray-900">
-                          {testimonial.name}
-                        </h4>
-                        <p className="text-blue-600">{testimonial.position}</p>
+                      <h4 className="font-bold text-gray-900">
+                        {testimonial.name}
+                      </h4>
+                      <p className="text-blue-600">{testimonial.position}</p>
                       </div>
                     </div>
                   </div>

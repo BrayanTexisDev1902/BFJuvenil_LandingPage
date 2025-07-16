@@ -86,7 +86,7 @@ export function Header() {
           </div>
 
           {/* Contact Info */}
-          <div className="hidden lg:flex items-center space-x-4 border-l-2 border-l-white/8     0 pl-4">
+          <div className="hidden lg:flex items-center space-x-4 border-l-2 border-l-white/80 pl-4">
             <div
               className={`flex items-center space-x-2 text-sm ${
                 isScrolled ? "text-gray-600" : "text-white"
