@@ -92,7 +92,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#servicios"
+                  href="#nosotros"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Nosotros
@@ -100,7 +100,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#nosotros"
+                  href="#antecedentes"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Antecedentes
@@ -108,7 +108,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#testimonios"
+                  href="#coordinacion"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Coordinación
@@ -116,7 +116,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#contacto"
+                  href="#servicios"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Servicios
@@ -124,31 +124,31 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#repertorio"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Repertorio
                 </a>
               </li>
-                <li>
+              <li>
                 <a
-                  href="#"
+                  href="#giras"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Giras Internacionales
                 </a>
               </li>
-                <li>
+              <li>
                 <a
-                  href="#"
+                  href="#unete"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Unete a Nosotros
                 </a>
               </li>
-                <li>
+              <li>
                 <a
-                  href="#"
+                  href="#contacto"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Contacto
@@ -164,16 +164,17 @@ export const Footer = () => {
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
                 <span className="text-gray-300">
-                  123 Business Street, Tech City, TC 12345
+                  72410, Av 15 Pte 1704, Rivera de Santiago, Heroica Puebla de
+                  Zaragoza, Pue.
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">2221648589</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">info@bluecorp.com</span>
+                <span className="text-gray-300">vicgarciamx2@hotmail.com</span>
               </div>
             </div>
           </div>

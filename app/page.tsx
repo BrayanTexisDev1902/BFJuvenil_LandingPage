@@ -1,6 +1,7 @@
 "use client";
 import { About } from "./ui/components/about";
 import { CardCarousel } from "./ui/components/cardCarousel";
+import { Convocatoria } from "./ui/components/convocatoria";
 import { Footer } from "./ui/components/footer";
 import { FullScreenSlider } from "./ui/components/fullScreenSlider";
 import { Gallery } from "./ui/components/gallery";
@@ -20,7 +21,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
-      <HeroPage />
+      <Hero/>
       <FullScreenSlider />
       <About />
       <Timeline />
@@ -28,6 +29,7 @@ export default function Home() {
       <Services />
       <InteractiveMenu />
       <Gallery />
+      <Convocatoria/>
       <Footer />
     </div>
   );

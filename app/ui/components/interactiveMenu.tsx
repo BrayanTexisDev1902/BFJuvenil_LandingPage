@@ -62,7 +62,7 @@ export const InteractiveMenu = () => {
       title: "Estado de Puebla",
       subtitle: "México",
       description:
-        "Nuestro equipo de desarrolladores expertos utiliza las últimas tecnologías para crear sitios web modernos, rápidos y escalables. Desde landing pages hasta aplicaciones web complejas, transformamos tus ideas en realidad digital.",
+        "El Jarabe Poblano es una expresión dancística y musical emblemática del folclore de Puebla, que combina la elegancia, el colorido y la energía de las tradiciones mestizas de la región. A diferencia del jarabe tapatío (de Jalisco), el jarabe poblano se distingue por su ritmo vivaz, sus figuras coreográficas llenas de picardía y su estrecho vínculo con las festividades locales",
       features: [
         "Jarabes Poblanos",
         "Mama carlota",
@@ -90,11 +90,11 @@ export const InteractiveMenu = () => {
       ],
       images: [
         {
-          src: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/HeroImage.jpg",
           alt: "Desarrollo web moderno",
         },
         {
-          src: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/puebla1.jpg",
           alt: "Equipo de desarrollo",
         },
       ],
@@ -131,11 +131,11 @@ export const InteractiveMenu = () => {
       ],
       images: [
         {
-          src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/jalisco1.jpg",
           alt: "Desarrollo de apps móviles",
         },
         {
-          src: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/jalisco2.jpg",
           alt: "Testing de aplicaciones",
         },
       ],
@@ -174,11 +174,11 @@ export const InteractiveMenu = () => {
       ],
       images: [
         {
-          src: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/veracruz1.jpg",
           alt: "Infraestructura cloud",
         },
         {
-          src: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/veracruz2.jpg",
           alt: "Monitoreo de sistemas",
         },
       ],
@@ -187,7 +187,7 @@ export const InteractiveMenu = () => {
       title: "Estado de Sinaloa",
       subtitle: "México",
       description:
-        "Implementamos soluciones de ciberseguridad robustas para proteger tus datos y sistemas. Desde auditorías de seguridad hasta implementación de protocolos avanzados de protección.",
+        "Sinaloa, tierra de música alegre y danzas llenas de energía, tiene un folclore vibrante que refleja su historia agrícola, su mestizaje y su conexión con el mar. Entre sus tradiciones más destacadas están la tambora sinaloense, los bailes típicos y las coloridas fiestas populares.",
       features: [
         "Mazatlan",
         "El sinaloense",
@@ -215,11 +215,11 @@ export const InteractiveMenu = () => {
       ],
       images: [
         {
-          src: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/sinaloa3.jpg",
           alt: "Ciberseguridad",
         },
         {
-          src: "https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/sinaloa2.jpg",
           alt: "Monitoreo de seguridad",
         },
       ],
@@ -266,17 +266,17 @@ export const InteractiveMenu = () => {
       ],
     },
     marketing: {
-      title: "Marketing Digital Estratégico",
-      subtitle: "Impulsa tu presencia online",
+      title: "Estado de Nayarit",
+      subtitle: "México",
       description:
-        "Desarrollamos estrategias de marketing digital integrales que aumentan tu visibilidad online, generan leads cualificados y mejoran tu ROI.",
+        "Nayarit, un estado donde convergen el Pacífico, la sierra y las raíces indígenas, guarda un folclore lleno de ritos ancestrales, danzas ceremoniales y música que narra historias de la naturaleza. Su cultura es un puente entre las tradiciones huicholas (Wixárikas), coras (Náayeri) y el mestizaje costeño.",
       features: [
-        "SEO y posicionamiento orgánico",
-        "Campañas SEM y Google Ads",
-        "Marketing en redes sociales",
-        "Email marketing automatizado",
-        "Analytics y reporting detallado",
-        "Estrategias de contenido y branding",
+        "Voy con mi Novia",
+        "El son del buey",
+        "El gallito",
+        "Cuchillos",
+        "El armadillo",
+        "Jarabe Nayarita",
       ],
       stats: [
         {
@@ -297,11 +297,11 @@ export const InteractiveMenu = () => {
       ],
       images: [
         {
-          src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/slider3.jpg",
           alt: "Marketing digital",
         },
         {
-          src: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/slider2.jpg",
           alt: "Análisis de datos",
         },
       ],
@@ -312,7 +312,7 @@ export const InteractiveMenu = () => {
 
   return (
     <section
-      id="servicios-interactivos"
+      id="repertorio"
       className="py-20 bg-gradient-to-br from-gray-50 to-blue-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -464,7 +464,7 @@ export const InteractiveMenu = () => {
                     </div>
 
                     {/* Floating stats */}
-                    <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-xl p-4 transform hover:scale-105 transition-transform duration-300">
+                    {/* <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-xl p-4 transform hover:scale-105 transition-transform duration-300">
                       <div className="text-center">
                         <div className="text-2xl font-bold text-blue-600">
                           {activeContent.stats[0].number}
@@ -473,7 +473,7 @@ export const InteractiveMenu = () => {
                           {activeContent.stats[0].label}
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

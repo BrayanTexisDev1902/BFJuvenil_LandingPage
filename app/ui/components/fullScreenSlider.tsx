@@ -21,7 +21,7 @@ export const FullScreenSlider = () => {
     {
       id: 2,
       image:
-        "/slider5.jpg",
+        "/slider8.jpg",
       title: "Titulo del Slide 2",
       subtitle: "Subtítulo del Slide 2",
       description:

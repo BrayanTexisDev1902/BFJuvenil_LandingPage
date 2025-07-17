@@ -13,8 +13,10 @@ import {
   Calendar,
   Users,
   Star,
+  Facebook
 } from "lucide-react";
 import Image from "next/image";
+// import { Facebook } from 'lucide-react';
 
 export const TeamCards = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -25,8 +27,7 @@ export const TeamCards = () => {
       name: "Prof. Victor Garcia Reyes",
       position: "Director del Ballet Folklorico Juvenil",
       department: "Liderazgo Estratégico",
-      image:
-        "/directorBFJ.jpg",
+      image: "/directorBFJ.jpg",
       email: "victor.garcia@gmail.com",
       phone: "+1 (555) 123-4567",
       location: "Puebla, México",
@@ -50,7 +51,7 @@ export const TeamCards = () => {
         'Reconocida como "CEO del Año" por Tech Leaders 2023',
       ],
       socialMedia: {
-        linkedin: "https://linkedin.com/in/maria-gonzalez",
+        facebook: "https://linkedin.com/in/maria-gonzalez",
         twitter: "https://twitter.com/mariagonzalez",
         email: "maria.gonzalez@bluecorp.com",
       },
@@ -62,8 +63,7 @@ export const TeamCards = () => {
       name: "Lic. Yessica Anahi Gonzalez Vazquez",
       position: "Coordinadora del Ballet Folklorico Juvenil",
       department: "Innovación Tecnológica",
-      image:
-        "/coordinadorBFJ.jpg",
+      image: "/coordinadorBFJ.jpg",
       email: "yessica.gonazalez@gmail.com",
       phone: "+1 (555) 987-6543",
       location: "Puebla, Mexico",
@@ -98,7 +98,7 @@ export const TeamCards = () => {
 
   return (
     <section
-      id="equipo"
+      id="coordinacion"
       className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -260,7 +260,7 @@ export const TeamCards = () => {
                   </div>
 
                   {/* Social Media */}
-                  <div className="pt-4 border-t border-gray-200">
+                  {/* <div className="pt-4 border-t border-gray-200">
                     <h4 className="font-semibold text-gray-900 mb-3">
                       Conecta con {member.name.split(" ")[1]}
                     </h4>
@@ -298,7 +298,7 @@ export const TeamCards = () => {
                         </a>
                       )}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Hover Effect Overlay */}
