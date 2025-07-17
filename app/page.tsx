@@ -6,9 +6,13 @@ import { FullScreenSlider } from "./ui/components/fullScreenSlider";
 import { Gallery } from "./ui/components/gallery";
 import { Header } from "./ui/components/header";
 import { Hero } from "./ui/components/hero";
+import { HeroPage } from "./ui/components/heroPage";
 import { InfiniteCarousel } from "./ui/components/infiniteCarousel";
+import { InteractiveMenu } from "./ui/components/interactiveMenu";
 import { Services } from "./ui/components/services";
+import { TeamCards } from "./ui/components/teamCards";
 import { Testimonials } from "./ui/components/testimonials";
+import { Timeline } from "./ui/components/timeLine";
 import { useScrollAnimation } from "./ui/hooks/useScrollAnimation";
 
 export default function Home() {
@@ -16,14 +20,14 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
-      <Hero />
+      <HeroPage />
       <FullScreenSlider />
       <About />
-      <CardCarousel />
+      <Timeline />
+      <TeamCards />
       <Services />
-      <InfiniteCarousel />
+      <InteractiveMenu />
       <Gallery />
-      <Testimonials />
       <Footer />
     </div>
   );

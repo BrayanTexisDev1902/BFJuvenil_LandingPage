@@ -5,13 +5,18 @@ import "./globals.css";
 const raleway = Raleway({
   subsets: ["latin"],
   variable: "--font-raleway",
-  weight: ['400', '500', '700'],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
   title: "BF Juvenil",
   description:
     "Pagina oficial del Ballet Folklorico Juvenil de la Ciudad de Puebla",
+  icons: {
+    icon: "/LogoBFJ.jpg",
+    shortcut: "/LogoBFJ.jpg",
+    apple: "/LogoBFJ.jpg",
+  },
 };
 
 export default function RootLayout({

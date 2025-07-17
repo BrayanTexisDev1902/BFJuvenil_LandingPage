@@ -25,33 +25,35 @@ export function Header() {
   const menuItems = [
     "Inicio",
     "Nosotros",
+    "Antecedentes",
     "Coordinación",
-    "Galería",
+    "Servicios",
+    "Repertorio",
+    "Giras Internacionales",
+    "Unete a Nosotros",
     "Contacto",
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled ? "bg-white/95 backdrop-blur-sm shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-gradient-to-r from-blue-800/85 to-blue-900/85 backdrop-blur-sm shadow-lg text-white" : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center flex-shrink-0 animate-fade-in gap-2">
-            <div className="flex items-center justify-center rounded-lg bg-white p-2 shadow-lg border-2 border-blue-800/80">
-              <Image
-                width={500}
-                height={500}
-                src="/logoHome.svg"
-                alt="LOGO"
-                className="h-5 w-6 object-cover" // Ajusta el tamaño del logo dentro del círculo
-              />
-            </div>
+          <div className="flex items-center flex-shrink-0 animate-fade-in gap-4">
+            <Image
+              width={80}
+              height={80}
+              src="/LogoBFJ.jpg"
+              alt="LOGO"
+              className="h-10 w-10 object-cover rounded-full" // Ajusta el tamaño del logo dentro del círculo
+            />
             <h1
               className={`text-xl font-bold transition-colors duration-300 ${
-                isScrolled ? "text-blue-800/70" : "text-white"
+                isScrolled ? "text-white" : "text-white"
               }`}
             >
               BF Juvenil
@@ -60,14 +62,14 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-8 flex items-baseline space-x-2">
               {menuItems.map((item, index) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className={`relative px-3 py-2 text-md font-medium transition-all duration-300 hover:scale-105 group ${
+                  className={`relative px-3 py-2 text-sm font-medium transition-all duration-300 hover:scale-105 group ${
                     isScrolled
-                      ? "text-gray-700 hover:text-blue-600"
+                      ? "text-white hover:text-blue-300"
                       : "text-white hover:text-blue-200"
                   }`}
                   style={{
@@ -77,7 +79,7 @@ export function Header() {
                   {item}
                   <span
                     className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${
-                      isScrolled ? "bg-blue-600" : "bg-blue-200"
+                      isScrolled ? "bg-blue-200" : "bg-blue-200"
                     }`}
                   ></span>
                 </a>
@@ -86,7 +88,7 @@ export function Header() {
           </div>
 
           {/* Contact Info */}
-          <div className="hidden lg:flex items-center space-x-4 border-l-2 border-l-white/80 pl-4">
+          {/* <div className="hidden lg:flex items-center space-x-4 border-l-2 border-l-white/80 pl-4">
             <div
               className={`flex items-center space-x-2 text-sm ${
                 isScrolled ? "text-gray-600" : "text-white"
@@ -103,7 +105,7 @@ export function Header() {
               <Mail className="w-4 h-4" />
               <span>BFJuvenil@gmail.com</span>
             </div>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -127,7 +129,7 @@ export function Header() {
         {/* Mobile Navigation */}
         <div
           className={`md:hidden transition-all duration-300 overflow-hidden ${
-            isMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+            isMenuOpen ? "h-auto opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm rounded-lg mt-2">

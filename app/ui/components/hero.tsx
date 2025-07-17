@@ -61,7 +61,7 @@ export const Hero = () => {
                 <Image
                   width={800}
                   height={600}
-                  src="/slider4.jpg"
+                  src="/slider5.jpg"
                   alt="Innovación tecnológica"
                   className="w-full h-96 object-cover"
                 />
