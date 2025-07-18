@@ -28,7 +28,7 @@ export const Gallery = () => {
     },
     {
       id: 4,
-      src: "/giras/costaRica2014.jpg",
+      src: "/giras/costaRica2014.JPG",
       alt: "Costa Rica 2014",
       category: "2014",
     },
