@@ -115,7 +115,7 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 animate-on-scroll">
           {items.map((item, index) => (
             <div
               key={index}
@@ -140,54 +140,6 @@ export const About = () => {
             </div>
           ))}
         </div>
-
-        {/* Stats */}
-        {/* <div className="5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 animate-on-scroll">
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Honduras 2004
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Honduras 2006
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Arequipa Perú 2007
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Ilo Perú 2008
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Honduras 2004
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Honduras 2006
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Arequipa Perú 2007
-          </div>
-          <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full font-semibold">
-            Ilo Perú 2008
-          </div> */}
-        {/* </div> */}
-        {/* {stats.map((stat, index) => (
-            <div
-              key={index}
-              className="text-center group hover:transform hover:scale-105 transition-all duration-300"
-              style={{
-                animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both`,
-              }}
-            >
-              <div
-                className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r ${stat.color} text-white mb-4 group-hover:shadow-lg transition-shadow duration-300`}
-              >
-                {stat.icon}
-              </div>
-              <div className="text-4xl font-bold text-gray-900 mb-2">
-                {stat.number}
-              </div>
-              <div className="text-gray-600">{stat.label}</div>
-            </div>
-          ))} */}
-        {/* </div> */}
       </div>
     </section>
   );

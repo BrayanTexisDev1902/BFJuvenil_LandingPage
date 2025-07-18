@@ -8,6 +8,7 @@ import {
   Mail,
   Phone,
   MapPin,
+  Youtube,
 } from "lucide-react";
 
 export const Footer = () => {
@@ -18,7 +19,7 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-blue-400">
-              Ballet Folclorico Juvenil
+              Ballet Folklorico Juvenil
             </h3>
             <p className="text-gray-300 leading-relaxed">
               No solo bailamos; honramos la historia, los colores y los ritmos
@@ -27,28 +28,37 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100067375140338"
                 className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300"
               >
                 <Facebook className="w-5 h-5" />
               </a>
+
               <a
-                href="#"
-                className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/bfjuvenil_puebla?igsh=ZHk4djRicjJmOTA="
                 className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300"
               >
                 <Instagram className="w-5 h-5" />
               </a>
+
               <a
-                href="#"
+                href="https://youtube.com/@balletfolkloricojuvenildel9676?si=571aaLNedG_rRXiK"
                 className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300"
               >
-                <Linkedin className="w-5 h-5" />
+                <Youtube className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@juvenildepuebla?_t=ZS-8y7BmUqQsjZ&_r=1"
+                className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors duration-300"
+              >
+                <svg
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+                </svg>
               </a>
             </div>
           </div>

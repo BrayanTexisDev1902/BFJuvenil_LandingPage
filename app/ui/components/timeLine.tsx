@@ -190,7 +190,7 @@ export const Timeline = () => {
                 </div>
 
                 {/* Year Display for Mobile */}
-                <div
+                {/* <div
                   className={`md:hidden absolute left-16 top-0 bg-gradient-to-r ${
                     event.color
                   } text-white px-3 py-1 rounded-full text-sm font-semibold transition-all duration-700 ${
@@ -201,7 +201,7 @@ export const Timeline = () => {
                   style={{ transitionDelay: `${index * 300}ms` }}
                 >
                   {event.year}
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

@@ -256,7 +256,7 @@ export const InteractiveMenu = () => {
       ],
       images: [
         {
-          src: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600",
+          src: "/repertorio/polkas1.jpg",
           alt: "Optimización de sistemas",
         },
         {

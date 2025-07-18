@@ -10,39 +10,39 @@ export const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "/slider1.jpg",
-      alt: "Universidad Iberoamericana",
-      category: "Marzo 2024",
+      src: "/giras/honduras2004.jpg",
+      alt: "Honduras 2024",
+      category: "2024",
     },
     {
       id: 2,
-      src: "/slider2.jpg",
-      alt: "Desarrollo de software",
-      category: "Desarrollo",
+      src: "/giras/peru2010.jpg",
+      alt: "Peru 2010",
+      category: "2010",
     },
     {
       id: 3,
-      src: "/slider3.jpg",
-      alt: "Reunión de equipo",
-      category: "Colaboración",
+      src: "/giras/arequipa2011.jpg",
+      alt: "Arequipa 2011",
+      category: "2011",
     },
     {
       id: 4,
-      src: "/slider4.jpg",
-      alt: "Análisis de datos",
-      category: "Análisis",
-    },
-    {
-      id: 5,
-      src: "/slider5.jpg",
-      alt: "Presentación de proyecto",
-      category: "Presentación",
+      src: "/giras/costaRica2014.jpg",
+      alt: "Costa Rica 2014",
+      category: "2014",
     },
     {
       id: 6,
       src: "/slider6.jpg",
       alt: "Innovación tecnológica",
       category: "Innovación",
+    },
+    {
+      id: 5,
+      src: "/slider3.jpg",
+      alt: "Peru 2024",
+      category: "2024",
     },
   ];
 
